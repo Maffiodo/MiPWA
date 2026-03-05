@@ -1,0 +1,28 @@
+{
+    "name": "Mi PWA",
+    "short_name": "PWA",
+    "description": "Una aplicación web progresiva de ejemplo",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#0078D7",
+    "orientation": "portrait-primary",
+    "start_url": "/index.html?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-MX",
+    "icons": [
+    { "src": "img/img1024.jpg", "sizes": "1024x1024", "type": "image/jpeg" },
+    { "src": "img/img512.jpg",  "sizes": "512x512",  "type": "image/jpeg" },
+    { "src": "img/img192.jpg",  "sizes": "192x192",  "type": "image/jpeg" },
+    { "src": "img/img180.jpg",  "sizes": "180x180",  "type": "image/jpeg" },
+    { "src": "img/img152.jpg",  "sizes": "152x152",  "type": "image/jpeg" },
+    { "src": "img/img144.jpg",  "sizes": "144x144",  "type": "image/jpeg" },
+    { "src": "img/img120.jpg",  "sizes": "120x120",  "type": "image/jpeg" },
+    { "src": "img/img96.jpg",  "sizes": "96x96",   "type": "image/jpeg" },
+    { "src": "img/img72.jpg",  "sizes": "72x72",   "type": "image/jpeg" },
+    { "src": "img/img64.jpg",  "sizes": "64x64",   "type": "image/jpeg" },
+    { "src": "img/img48.jpg",  "sizes": "48x48",   "type": "image/jpeg" },
+    { "src": "img/img32.jpg",  "sizes": "32x32",   "type": "image/jpeg" },
+    { "src": "img/img16.jpg",  "sizes": "16x16",   "type": "image/jpeg" }
+    ]
+
+}
