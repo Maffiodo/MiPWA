@@ -5,7 +5,7 @@
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#0078D7",
-  "start_url": "/MiPWA/index.html",
+  "start_url": "/MiPWA/",
   "scope": "/MiPWA/",
   "lang": "es-MX",
   "icons": [
