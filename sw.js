@@ -4,7 +4,7 @@ const CACHE_NAME = 'cv-cache-v1';
 //Archivos a cachear en la aplicación
 const urlsToCache = [
     './',
-    './cv.html',
+    './index.html',
     './style.css',
     './main.js',
     './manifest.json',
