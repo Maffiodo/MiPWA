@@ -20,16 +20,21 @@ const urlsToCache = [
 
 //evento install
 self.addEventListener('install', e => {
-    e.waitUntil((async () => {
-        try {
-            const cache = await caches.open(CACHE_NAME);
-            console.log('Cache abierto');
-            await cache.addAll(urlsToCache);
-            await self.skipWaiting();
-        } catch (err) {
-            console.log('Error al abrir el cache:', err);
-        }
-    })());
+  e.waitUntil((async () => {
+    const cache = await caches.open(CACHE_NAME);
+    console.log('Cache abierto');
+
+    for (const url of urlsToCache) {
+      try {
+        await cache.add(url);
+        console.log('Cacheado:', url);
+      } catch (err) {
+        console.warn('NO se pudo cachear:', url, err);
+      }
+    }
+
+    await self.skipWaiting();
+  })());
 });
 
 //Evento activate
