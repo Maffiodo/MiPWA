@@ -5,11 +5,10 @@
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#0078D7",
-  "orientation": "portrait-primary",
-  "start_url": "/cv.html",
-  "scope": "/",
+  "start_url": "/MiPWA/index.html",
+  "scope": "/MiPWA/",
   "lang": "es-MX",
-    "icons": [
+  "icons": [
     { "src": "img/img1024.jpg", "sizes": "1024x1024", "type": "image/jpeg" },
     { "src": "img/img512.jpg",  "sizes": "512x512",  "type": "image/jpeg" },
     { "src": "img/img192.jpg",  "sizes": "192x192",  "type": "image/jpeg" },
